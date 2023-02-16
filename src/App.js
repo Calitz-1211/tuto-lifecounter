@@ -1,14 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import { Chip } from './component/chips';
+import { Header } from './component/header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <Header/>
+      <div className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and oui.
         </p>
+        <Chip value={1}/>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,7 +21,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </div>
     </div>
   );
 }
