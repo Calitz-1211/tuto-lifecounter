@@ -1,0 +1,9 @@
+.round{
+    background-color: #bbb;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    vertical-align: center;
+}
